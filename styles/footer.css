@@ -1,0 +1,55 @@
+footer {
+  background-color: #fff8f3;
+  color: #474747;
+  overflow-x: hidden;
+}
+
+footer .footer-container {
+  max-width: 1140px;
+  padding: 130px 50px;
+
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+footer .footer-container h3 {
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+
+.footer-container .social-links {
+  max-width: 500px;
+}
+
+.footer-container .social-links > p {
+  margin-bottom: 20px;
+}
+
+.footer-container .social-links .social-icon-links {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.footer-container .message {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-container .message input,
+.footer-container .message textarea {
+  margin-bottom: 25px;
+  height: 64px;
+  padding: 18px 30px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+.footer-container .message textarea {
+  height: 140px;
+  resize: vertical;
+}

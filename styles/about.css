@@ -2,11 +2,14 @@
   margin: 130px auto;
   max-width: 1140px;
   padding: 130px 150px;
+  border-radius: 10px;
 }
 
 .about {
   background-color: white;
   text-align: center;
+  border-radius: 10px;
+  padding: 9px;
 }
 
 .about h3 {

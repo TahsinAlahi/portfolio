@@ -30,18 +30,46 @@ nav ul {
 }
 
 /* Description */
-.description {
-  display: flex;
-  margin: 100px 14% 0;
-  align-items: center;
-  /* position: relative; */
-}
 
-.description .left {
+.description {
+  margin: 100px 14% 0;
   width: 36%;
 }
 
-.description img {
+.description h4 {
+  font-size: 2.5rem;
+}
+
+.description h1 {
+  font-size: 4.25rem;
+  margin-bottom: 20px;
+}
+
+.description p {
+  margin-bottom: 30px;
+}
+
+.description .buttons button {
+  margin-right: 30px;
+  cursor: pointer;
+}
+
+.description .buttons button i {
+  margin-right: 10px;
+}
+
+.description .btn-1 {
+  padding: 13px 17px;
+}
+
+.description .btn-2 {
+  padding: 13px 23px;
+  color: #fd6e0a;
+  background-color: transparent;
+  border: #fd6e0a solid 1px;
+}
+
+header img {
   position: absolute;
   width: 36%;
   bottom: 0;

@@ -59,6 +59,7 @@ bg-color-off {
 
 .btn {
   font-size: 1.25rem;
+  font-weight: 600;
   color: #fff;
   background-color: #fd6e0a;
   padding: 18px 36px;

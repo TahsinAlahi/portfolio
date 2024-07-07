@@ -47,12 +47,16 @@
 
 /* Font sizes */
 
+.font-sm {
+  font-size: 1.2rem;
+}
+
 .font-m {
   font-size: 1.25rem;
 }
 
 /* background color */
-bg-color-off {
+.bg-color-secondary {
   background-color: #fff8f3;
 }
 /*  */

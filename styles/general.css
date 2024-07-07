@@ -47,10 +47,14 @@
 
 /* Font sizes */
 
-.font-20 {
+.font-m {
   font-size: 1.25rem;
 }
 
+/* background color */
+bg-color-off {
+  background-color: #fff8f3;
+}
 /*  */
 
 .btn {
@@ -59,4 +63,5 @@
   background-color: #fd6e0a;
   padding: 18px 36px;
   border-radius: 10px;
+  border: none;
 }
